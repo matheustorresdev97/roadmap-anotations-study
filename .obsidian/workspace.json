@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1267104df411ea0b",
+        "id": "5373bc95ab716964",
         "type": "tabs",
         "children": [
           {
-            "id": "b520b4f8e668d988",
+            "id": "8677b7d4bb32edc4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring In Action/Capítulo 1 - Fundamentos Spring.md",
+                "file": "Spring In Action/Capítulo 2 - Desenvolvendo Aplicações Web.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Capítulo 1 - Fundamentos Spring"
+              "title": "Capítulo 2 - Desenvolvendo Aplicações Web"
             }
           }
         ]
@@ -168,19 +168,20 @@
       "command-palette:Abrir paleta de comando": false
     }
   },
-  "active": "b520b4f8e668d988",
+  "active": "8677b7d4bb32edc4",
   "lastOpenFiles": [
-    "Spring In Action/assets/figura1.10.png",
-    "Spring In Action/Capítulo 1 - Fundamentos Spring.md",
-    "Spring In Action/assets/figure1.9.png",
-    "Spring In Action/assets/figure1.8.png",
-    "Spring In Action/assets/figure1.7.png",
-    "Spring In Action/assets/figure1.2.1.png",
-    "Spring In Action/assets/figure1.6.png",
-    "Spring In Action/assets/figure1.5.png",
-    "Spring In Action/assets/figure1.4.png",
-    "Spring In Action/assets/figure1.3.png",
-    "Spring In Action/assets/figure1.1.png",
+    "Spring In Action/Capítulo 1 - Começando com Spring.md",
+    "Spring In Action/Capítulo 2 - Desenvolvendo Aplicações Web.md",
+    "Spring In Action/assets/figure1.17.png",
+    "Spring In Action/assets/figure1.17.png",
+    "Spring In Action/assets/figure1.16.png",
+    "Spring In Action/assets/figure1.15.png",
+    "Spring In Action/assets/figure1.15.png",
+    "Spring In Action/assets/figure1.14.png",
+    "Spring In Action/assets/figure1.13.png",
+    "Spring In Action/assets/figure1.13.png",
+    "Spring In Action/assets/figure1.12.png",
+    "Spring In Action/assets/figure1.11.png",
     "Spring In Action/assets",
     "Welcome.md",
     "Spring In Action/Capítulo 4 - Deployed Spring",

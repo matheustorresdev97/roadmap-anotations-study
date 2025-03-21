@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d15f06c7d3ccff70",
+        "id": "47b9df6e163d2aed",
         "type": "tabs",
         "children": [
           {
-            "id": "a65e165a9ab99008",
+            "id": "d9e605c21cabc83f",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -164,8 +164,15 @@
       "command-palette:Abrir paleta de comando": false
     }
   },
-  "active": "010d2c555230eeef",
+  "active": "d9e605c21cabc83f",
   "lastOpenFiles": [
+    "Spring In Action/Capítulo 2 - Desenvolvendo Aplicações Web.md",
+    "Spring In Action/Capítulo 3 - Trabalhando com dados.md",
+    "Spring In Action/assets/Captura de tela de 2025-03-21 09-14-34.png",
+    "Spring In Action/assets/Captura de tela de 2025-03-21 08-40-32.png",
+    "Spring In Action/assets/Captura de tela de 2025-03-21 08-25-05.png",
+    "Spring In Action/assets/Captura de tela de 2025-03-21 07-33-06.png",
+    "Spring In Action/assets/Captura de tela de 2025-03-21 07-29-38.png",
     "Full Cycle 3.0/Docker/Iniciando com Docker.md",
     "Full Cycle 3.0/Docker/Trabalhando com imagens.md",
     "Full Cycle 3.0/Docker/Networks.md",
@@ -176,15 +183,9 @@
     "Full Cycle 3.0/Docker/assets/Captura de tela de 2025-03-20 19-42-19.png",
     "Full Cycle 3.0/Docker/assets/Captura de tela de 2025-03-20 19-40-07.png",
     "Full Cycle 3.0/Docker/assets/Captura de tela de 2025-03-20 19-41-11.png",
-    "Full Cycle 3.0/Docker/assets/Captura de tela de 2025-03-20 19-38-45.png",
-    "Captura de tela de 2025-03-20 19-37-45.png",
-    "Full Cycle 3.0/Docker/assets/Captura de tela de 2025-03-20 19-36-14.png",
-    "Full Cycle 3.0/Docker/assets/Captura de tela de 2025-03-20 19-35-29.png",
-    "Full Cycle 3.0/Docker/assets/Captura de tela de 2025-03-20 19-34-46.png",
     "Full Cycle 3.0/Docker/assets",
     "Full Cycle 3.0/Docker",
     "Full Cycle 3.0",
-    "Spring In Action/Capítulo 2 - Desenvolvendo Aplicações Web.md",
     "Spring In Action/Capítulo 1 - Começando com Spring.md",
     "Spring In Action/assets",
     "Welcome.md",

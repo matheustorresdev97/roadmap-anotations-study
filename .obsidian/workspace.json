@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "47b9df6e163d2aed",
+        "id": "70b05e99ac337a9e",
         "type": "tabs",
         "children": [
           {
-            "id": "d9e605c21cabc83f",
+            "id": "544d4f97ad0fad95",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Spring In Action/Capítulo 3 - Trabalhando com dados.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nova aba"
+              "title": "Capítulo 3 - Trabalhando com dados"
             }
           }
         ]
@@ -164,18 +168,19 @@
       "command-palette:Abrir paleta de comando": false
     }
   },
-  "active": "d9e605c21cabc83f",
+  "active": "544d4f97ad0fad95",
   "lastOpenFiles": [
-    "Spring In Action/Capítulo 2 - Desenvolvendo Aplicações Web.md",
     "Spring In Action/Capítulo 3 - Trabalhando com dados.md",
+    "Spring In Action/Capítulo 2 - Desenvolvendo Aplicações Web.md",
+    "Spring In Action/Capítulo 1 - Começando com Spring.md",
+    "Full Cycle 3.0/Docker/Networks.md",
+    "Full Cycle 3.0/Docker/Trabalhando com imagens.md",
     "Spring In Action/assets/Captura de tela de 2025-03-21 09-14-34.png",
     "Spring In Action/assets/Captura de tela de 2025-03-21 08-40-32.png",
     "Spring In Action/assets/Captura de tela de 2025-03-21 08-25-05.png",
     "Spring In Action/assets/Captura de tela de 2025-03-21 07-33-06.png",
     "Spring In Action/assets/Captura de tela de 2025-03-21 07-29-38.png",
     "Full Cycle 3.0/Docker/Iniciando com Docker.md",
-    "Full Cycle 3.0/Docker/Trabalhando com imagens.md",
-    "Full Cycle 3.0/Docker/Networks.md",
     "Full Cycle 3.0/Docker/Trabalhando com imagens",
     "Full Cycle 3.0/Docker/Começando do zero.md",
     "Full Cycle 3.0/Docker/assets/Captura de tela de 2025-03-20 19-43-37.png",
@@ -186,7 +191,6 @@
     "Full Cycle 3.0/Docker/assets",
     "Full Cycle 3.0/Docker",
     "Full Cycle 3.0",
-    "Spring In Action/Capítulo 1 - Começando com Spring.md",
     "Spring In Action/assets",
     "Welcome.md",
     "Spring In Action/Capítulo 4 - Deployed Spring",

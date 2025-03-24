@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f1b1d5b00da1c02c",
+        "id": "5b11e35c5d526f92",
         "type": "tabs",
         "children": [
           {
-            "id": "eb1c85a4ae9a7043",
+            "id": "fb872a576da916b5",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -164,12 +164,22 @@
       "command-palette:Abrir paleta de comando": false
     }
   },
-  "active": "010d2c555230eeef",
+  "active": "fb872a576da916b5",
   "lastOpenFiles": [
+    "Full Cycle 3.0/Comunicação entre sistemas/REST.md",
+    "Full Cycle 3.0/Comunicação entre sistemas/GraphQL.md",
+    "Full Cycle 3.0/Comunicação entre sistemas/gRPC.md",
+    "Full Cycle 3.0/Comunicação entre sistemas/Service Discovery e Consul.md",
+    "Full Cycle 3.0/Comunicação entre sistemas",
+    "Full Cycle 3.0/Fundamentos da arquitetura de software/Resiliência.md",
+    "Full Cycle 3.0/assets/Captura de tela de 2025-03-24 19-33-10.png",
+    "Full Cycle 3.0/Fundamentos da arquitetura de software/Escalabilidade.md",
+    "Full Cycle 3.0/assets/Captura de tela de 2025-03-24 19-14-17.png",
+    "Full Cycle 3.0/assets/Captura de tela de 2025-03-24 19-08-04.png",
+    "Full Cycle 3.0/assets/Captura de tela de 2025-03-24 19-05-47.png",
     "Spring In Action/Capítulo 5 - Protegendo o Spring.md",
     "Spring In Action/assets/Captura de tela de 2025-03-24 12-00-10.png",
     "Spring In Action/assets/Captura de tela de 2025-03-24 12-00-01.png",
-    "Full Cycle 3.0/Fundamentos da arquitetura de software/Escalabilidade.md",
     "Full Cycle 3.0/Fundamentos da arquitetura de software/Performance.md",
     "Full Cycle 3.0/assets/Captura de tela de 2025-03-24 10-10-14.png",
     "Full Cycle 3.0/assets/Captura de tela de 2025-03-24 10-09-51.png",
@@ -178,18 +188,14 @@
     "Full Cycle 3.0/assets/Captura de tela de 2025-03-24 10-06-04.png",
     "Spring In Action/Capítulo 4 - Trabalhando com dados não relacionais.md",
     "Spring In Action/assets/Captura de tela de 2025-03-24 08-01-16.png",
-    "Spring In Action/assets/Captura de tela de 2025-03-24 07-37-35.png",
     "Spring In Action/Capítulo 3 - Trabalhando com dados.md",
     "desafios/Desafio backend do BankPay.md",
     "Sem título.canvas",
     "desafios",
     "yt/Angular/Saindo do Zero em 1 Hora.md",
     "yt/assets",
-    "yt/assets/Captura de tela de 2025-03-22 20-45-51.png",
     "yt/Angular",
     "yt",
-    "Spring In Action/assets/Captura de tela de 2025-03-22 19-17-18.png",
-    "Captura de tela de 2025-03-22 19-17-18.png",
     "Full Cycle 3.0/Fundamentos da arquitetura de software",
     "Full Cycle 3.0/Docker/Docker-compose.md",
     "Full Cycle 3.0/Docker/Otimizando imagens.md",
@@ -204,7 +210,6 @@
     "Full Cycle 3.0/assets",
     "Full Cycle 3.0/Docker",
     "Full Cycle 3.0",
-    "Spring In Action/assets",
     "Welcome.md"
   ]
 }

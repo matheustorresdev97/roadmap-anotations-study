@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "f9348e0453749c01",
+        "id": "506ce53e87662a2a",
         "type": "tabs",
         "children": [
           {
-            "id": "5783f77854f15e19",
+            "id": "0061fa72274e0688",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "desafios/Desafio backend do BankPay.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Desafio backend do BankPay"
+              "title": "Nova aba"
             }
           }
         ]
@@ -168,22 +164,31 @@
       "command-palette:Abrir paleta de comando": false
     }
   },
-  "active": "5783f77854f15e19",
+  "active": "0061fa72274e0688",
   "lastOpenFiles": [
-    "Sem título.canvas",
-    "desafios/Desafio backend do BankPay.md",
+    "Full Cycle 3.0/Fundamentos da arquitetura de software/Escalabilidade.md",
+    "Full Cycle 3.0/Fundamentos da arquitetura de software/Performance.md",
+    "Full Cycle 3.0/assets/Captura de tela de 2025-03-24 10-10-14.png",
+    "Full Cycle 3.0/assets/Captura de tela de 2025-03-24 10-09-51.png",
+    "Full Cycle 3.0/Fundamentos da arquitetura de software/Fundamentos.md",
+    "Full Cycle 3.0/Fundamentos da arquitetura de software/Características Arquiteturais.md",
+    "Full Cycle 3.0/assets/Captura de tela de 2025-03-24 10-06-04.png",
     "Spring In Action/Capítulo 4 - Trabalhando com dados não relacionais.md",
+    "Spring In Action/Capítulo 5 - Protegendo o Spring.md",
+    "Spring In Action/assets/Captura de tela de 2025-03-24 08-01-16.png",
+    "Spring In Action/assets/Captura de tela de 2025-03-24 07-37-35.png",
+    "Spring In Action/Capítulo 3 - Trabalhando com dados.md",
+    "desafios/Desafio backend do BankPay.md",
+    "Sem título.canvas",
     "desafios",
     "yt/Angular/Saindo do Zero em 1 Hora.md",
     "yt/assets",
     "yt/assets/Captura de tela de 2025-03-22 20-45-51.png",
     "yt/Angular",
     "yt",
-    "Spring In Action/Capítulo 3 - Trabalhando com dados.md",
     "Spring In Action/assets/Captura de tela de 2025-03-22 19-17-18.png",
     "Captura de tela de 2025-03-22 19-17-18.png",
     "Spring In Action/assets/Captura de tela de 2025-03-22 10-29-48.png",
-    "Full Cycle 3.0/Fundamentos da arquitetura de software/Fundamentos.md",
     "Full Cycle 3.0/Fundamentos da arquitetura de software",
     "Full Cycle 3.0/Docker/Docker-compose.md",
     "Full Cycle 3.0/Docker/Otimizando imagens.md",
@@ -193,15 +198,10 @@
     "Spring In Action/Capítulo 2 - Desenvolvendo Aplicações Web.md",
     "Spring In Action/Capítulo 1 - Começando com Spring.md",
     "Spring In Action/assets/Captura de tela de 2025-03-21 09-14-34.png",
-    "Spring In Action/assets/Captura de tela de 2025-03-21 08-40-32.png",
-    "Spring In Action/assets/Captura de tela de 2025-03-21 08-25-05.png",
-    "Spring In Action/assets/Captura de tela de 2025-03-21 07-33-06.png",
-    "Spring In Action/assets/Captura de tela de 2025-03-21 07-29-38.png",
     "Full Cycle 3.0/Docker/Iniciando com Docker.md",
     "Full Cycle 3.0/Docker/Trabalhando com imagens",
     "Full Cycle 3.0/Docker/Começando do zero.md",
-    "Full Cycle 3.0/Docker/assets/Captura de tela de 2025-03-20 19-43-37.png",
-    "Full Cycle 3.0/Docker/assets",
+    "Full Cycle 3.0/assets",
     "Full Cycle 3.0/Docker",
     "Full Cycle 3.0",
     "Spring In Action/assets",

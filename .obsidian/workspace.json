@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "5b11e35c5d526f92",
+        "id": "692ed35792aca910",
         "type": "tabs",
         "children": [
           {
-            "id": "fb872a576da916b5",
+            "id": "0c2b8953fed8f8de",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Full Cycle 3.0/Comunicação entre sistemas/gRPC.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nova aba"
+              "title": "gRPC"
             }
           }
         ]
@@ -164,11 +168,19 @@
       "command-palette:Abrir paleta de comando": false
     }
   },
-  "active": "fb872a576da916b5",
+  "active": "010d2c555230eeef",
   "lastOpenFiles": [
-    "Full Cycle 3.0/Comunicação entre sistemas/REST.md",
-    "Full Cycle 3.0/Comunicação entre sistemas/GraphQL.md",
+    "Full Cycle 3.0/assets/Captura de tela de 2025-03-25 09-22-29.png",
+    "Full Cycle 3.0/assets/Captura de tela de 2025-03-25 09-21-29.png",
+    "Full Cycle 3.0/assets/Captura de tela de 2025-03-25 09-20-37.png",
+    "Full Cycle 3.0/assets/Captura de tela de 2025-03-25 09-19-26.png",
+    "Full Cycle 3.0/assets/Captura de tela de 2025-03-25 09-07-03.png",
     "Full Cycle 3.0/Comunicação entre sistemas/gRPC.md",
+    "Full Cycle 3.0/Comunicação entre sistemas/REST.md",
+    "Full Cycle 3.0/assets/Captura de tela de 2025-03-25 08-46-13.png",
+    "Full Cycle 3.0/assets/Captura de tela de 2025-03-25 08-40-29.png",
+    "Spring In Action/Capítulo 5 - Protegendo o Spring.md",
+    "Full Cycle 3.0/Comunicação entre sistemas/GraphQL.md",
     "Full Cycle 3.0/Comunicação entre sistemas/Service Discovery e Consul.md",
     "Full Cycle 3.0/Comunicação entre sistemas",
     "Full Cycle 3.0/Fundamentos da arquitetura de software/Resiliência.md",
@@ -177,17 +189,10 @@
     "Full Cycle 3.0/assets/Captura de tela de 2025-03-24 19-14-17.png",
     "Full Cycle 3.0/assets/Captura de tela de 2025-03-24 19-08-04.png",
     "Full Cycle 3.0/assets/Captura de tela de 2025-03-24 19-05-47.png",
-    "Spring In Action/Capítulo 5 - Protegendo o Spring.md",
-    "Spring In Action/assets/Captura de tela de 2025-03-24 12-00-10.png",
-    "Spring In Action/assets/Captura de tela de 2025-03-24 12-00-01.png",
     "Full Cycle 3.0/Fundamentos da arquitetura de software/Performance.md",
-    "Full Cycle 3.0/assets/Captura de tela de 2025-03-24 10-10-14.png",
-    "Full Cycle 3.0/assets/Captura de tela de 2025-03-24 10-09-51.png",
     "Full Cycle 3.0/Fundamentos da arquitetura de software/Fundamentos.md",
     "Full Cycle 3.0/Fundamentos da arquitetura de software/Características Arquiteturais.md",
-    "Full Cycle 3.0/assets/Captura de tela de 2025-03-24 10-06-04.png",
     "Spring In Action/Capítulo 4 - Trabalhando com dados não relacionais.md",
-    "Spring In Action/assets/Captura de tela de 2025-03-24 08-01-16.png",
     "Spring In Action/Capítulo 3 - Trabalhando com dados.md",
     "desafios/Desafio backend do BankPay.md",
     "Sem título.canvas",

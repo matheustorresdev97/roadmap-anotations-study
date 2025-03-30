@@ -35,7 +35,7 @@ Caracteristicas:
 
 Dev Mode
 - NUNCA utilize em produção
-- Teste de feeatures, exemplos
+- Teste de features, exemplos
 - Roda como servidor
 - Não escala
 - Registra tudo em memória
@@ -63,4 +63,21 @@ Para consultar todos os cluster
 ```shell
 consul members
 ```
+
+
+### Criando nosso cluster
+
+### Criando primeiro client
+
+### Registrando Serviço
+
+### Registrando segundo serviço com retry join
+
+### Implementando checks
+
+### Sincronizando servers via arquivo
+
+### Trabalhando com criptografia
+
+### User Interface e dicas para Produção
 

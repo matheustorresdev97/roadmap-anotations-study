@@ -59,3 +59,59 @@ Estas alternativas podem ser diversas, desde uma definição de estruturação d
 É um padrão de projeto comportamental que permite que você defina uma família de algoritmos, coloque-os em classes separadas, e faça os objetos deles intercambiáveis.
 Imagina que a empresa de ecommerce agora irá oferecer um plano de serviço que foi carinhosamente chamado de compre e retire com alguns pontos de drive thru espalhados pela cidade para assim agilizar a entrega e ampliar a publicidade de sua marca.
 Agora o sistema de gestão logística deverá ter duas estratégias para as entregas dos produtos comprados no site diante da opção de recebimento escolhida pelo cliente.
+
+### SOLID
+É o acrônimo criado por Michael Feathers para representar os cinco princípios da programação orientada a objetos e design de códigos que tem por finalidade conduzir o programador para a criação de código com menos complexidade nas futuras manutenções.
+
+| Sigla | Signficado                     | Tradução                              |
+| ----- | ------------------------------ | ------------------------------------- |
+| S     | Single Responsibility          | Princípio da Responsabilidade Única   |
+| O     | Open/closed Principle          | Princípio do aberto/fechado           |
+| L     | Liskov Substitution            | Princípio da Substituição de Liskov   |
+| I     | Interface Segregation          | Princípio da Segregação de Interfaces |
+| D     | Dependency Inversion Principle | Princípio da Inversão de Dependências |
+Estes princípios separam responsabilidades diminuindo o acoplamento do código com intuito de facilitar na refatoração, melhorias e evolução do seu projeto. Por isso, antes de pensar em começar aplicando logo de cara todos estes princípios, repense no esforço que será necessário.
+
+### Single Responsibility
+Um dos princípios mais importante e acreditamos que o mais utilizados em todas as etapas de desenvolvimento do projeto, o Single Responsibility tem como finalidade definir e manter de forma bem distribuída e independente todo algoritmo e lógica de um software
+Em resumo, o Princípio da Responsabilidade Única sugere que uma classe deva ter somente um assunto, uma finalidade e ou objetivo, isso não quer dizer um único atributo ou método.
+É muito comum em exemplos acadêmicos e até mesmo em projetos reais nos deparamos com abordagens semelhantes a esta abaixo:
+Imagina que a empresa de ecommerce diante de seu sucesso de atuação no seguimento, resolveu diversificar suas atividades proporcionando para alguns de seus clientes a possibilidade dos mesmos criarem uma conta digital capaz de depositar, sacar e o principal, comprar online com muito mais facilidade.
+
+1. Implementação convencional:
+```java
+public class Conta{
+	double saldo;
+
+	void depositar(Double valorInserido) {
+		saldo = saldo + valorInserido;
+	}
+}
+
+	void sacar(Double valorSolicitado) {
+		saldo = saldo - valorSolicitado;
+	}
+
+	double obterSaldo() {
+		return saldo;
+	}
+
+	String imprimirExtrato() {
+	//Logica que busca e apresenta todas as movimentações desta 
+	return "";
+	}
+		}
+	}
+	```
+
+
+Riscos
+Precisamos começar a perceber os riscos de manutenibilidade e evolução do nosso software considerando alguns riscos conforme abaixo:
+- A classe possui mais de uma responsabilidade (baixa coesão) ou faz praticamente tudo, sendo conhecida como a God Class ou Classe Deus;
+- As responsabilidades estão misturadas e confusas dificultando uma interpretação diante da necessidade de uma nautenção;
+- Aumento significativo do esforço necessário para implementar melhorias ou novas funcionalidades;
+- Incertezas surgem quando confrontadas a lógica aplicada diante dos requisitos apresentados pelos usuários.
+
+
+2. Implementação com SRP:
+Nesta abordagem grande parte do código que existe somente em uma 

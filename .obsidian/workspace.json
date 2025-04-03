@@ -4,24 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "36b7472a305a43e1",
+        "id": "74ce97c260edfea2",
         "type": "tabs",
         "children": [
           {
-            "id": "9d07ee1a6ec5fbee",
+            "id": "09c81838dae5741d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Full Cycle 3.0/Domain Drive Design/Domínios, subdomínios e contextos.md",
+                "file": "Full Cycle 3.0/DDD Modelagem Tática e Patterns/Entidades.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Domínios, subdomínios e contextos"
+              "title": "Entidades"
+            }
+          },
+          {
+            "id": "465536513df93535",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Full Cycle 3.0/DDD Modelagem Tática e Patterns/Value objects.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Value objects"
+            }
+          },
+          {
+            "id": "2717d9c930c59121",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Full Cycle 3.0/DDD Modelagem Tática e Patterns/Entidades.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Entidades"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -168,12 +197,16 @@
       "command-palette:Abrir paleta de comando": false
     }
   },
-  "active": "9d07ee1a6ec5fbee",
+  "active": "465536513df93535",
   "lastOpenFiles": [
+    "Full Cycle 3.0/DDD Modelagem Tática e Patterns/Entidades.md",
+    "Full Cycle 3.0/DDD Modelagem Tática e Patterns/Value objects.md",
+    "Full Cycle 3.0/DDD Modelagem Tática e Patterns/Introdução.md",
+    "Full Cycle 3.0/Domain Drive Design/Domínios, subdomínios e contextos.md",
+    "Full Cycle 3.0/DDD Modelagem Tática e Patterns",
     "Full Cycle 3.0/Domain Drive Design/Introdução.md",
     "Full Cycle 3.0/SOLID Express/Solid.md",
     "Full Cycle 3.0/Comunicação entre sistemas/Service Discovery e Consul.md",
-    "Full Cycle 3.0/Domain Drive Design/Domínios, subdomínios e contextos.md",
     "Full Cycle 3.0/Domain Drive Design",
     "Full Cycle 3.0/SOLID Express",
     "projetos/gestao_vagas.md",
@@ -212,10 +245,6 @@
     "Full Cycle 3.0/Fundamentos da arquitetura de software",
     "Full Cycle 3.0/Docker/Docker-compose.md",
     "Full Cycle 3.0/Docker/Otimizando imagens.md",
-    "Full Cycle 3.0/Docker/Colocando em prática.md",
-    "Full Cycle 3.0/Docker/Trabalhando com imagens.md",
-    "Full Cycle 3.0/Docker/Networks.md",
-    "Spring In Action/Capítulo 2 - Desenvolvendo Aplicações Web.md",
-    "Full Cycle 3.0/Docker/Trabalhando com imagens"
+    "Full Cycle 3.0/Docker/Colocando em prática.md"
   ]
 }

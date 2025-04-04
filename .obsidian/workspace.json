@@ -1,86 +1,41 @@
 {
   "main": {
-    "id": "fb465a6739254a34",
+    "id": "c6e15a07c5544d66",
     "type": "split",
     "children": [
       {
-<<<<<<< HEAD
-        "id": "74ce97c260edfea2",
+        "id": "04e6193e4280008b",
         "type": "tabs",
         "children": [
           {
-            "id": "09c81838dae5741d",
-=======
-        "id": "7a7c490c48a07ddc",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "b8cf3e800fac54b9",
->>>>>>> java
+            "id": "24c0bf80014e8cd5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< HEAD
-                "file": "Full Cycle 3.0/DDD Modelagem Tática e Patterns/Entidades.md",
-=======
-                "file": "Rocketseat/java/Padrões de Projeto.md",
->>>>>>> java
+                "file": "Full Cycle 3.0/DDD Modelagem Tática e Patterns/Repositórios.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-<<<<<<< HEAD
-              "title": "Entidades"
-            }
-          },
-          {
-            "id": "465536513df93535",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Full Cycle 3.0/DDD Modelagem Tática e Patterns/Value objects.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Value objects"
-            }
-          },
-          {
-            "id": "2717d9c930c59121",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Full Cycle 3.0/DDD Modelagem Tática e Patterns/Entidades.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Entidades"
-=======
-              "title": "Padrões de Projeto"
->>>>>>> java
+              "title": "Repositórios"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "d5ccd6666190b5b2",
+    "id": "673c58eee7b9d5ce",
     "type": "split",
     "children": [
       {
-        "id": "112178d6bd504439",
+        "id": "5202391141344083",
         "type": "tabs",
         "children": [
           {
-            "id": "010d2c555230eeef",
+            "id": "eed2ed7ff4ddb948",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -93,7 +48,7 @@
             }
           },
           {
-            "id": "f7fe4ea3bbe4fb1f",
+            "id": "47b6a11abb3a5c75",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -110,7 +65,7 @@
             }
           },
           {
-            "id": "4f9dad898481bdc7",
+            "id": "f6dba286deee3d03",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -126,20 +81,20 @@
     "width": 300
   },
   "right": {
-    "id": "e6dabba0a37274bf",
+    "id": "8f28d98eb5ff0ba1",
     "type": "split",
     "children": [
       {
-        "id": "c5a9dd2fa21dbdf9",
+        "id": "53fd04313b1a9026",
         "type": "tabs",
         "children": [
           {
-            "id": "b43812780916722a",
+            "id": "14dcc2aa0b3d962c",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring In Action/Capítulo 1 - Fundamentos Spring.md",
+                "file": "Full Cycle 3.0/DDD Modelagem Tática e Patterns/Repositórios.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks para Capítulo 1 - Fundamentos Spring"
+              "title": "Backlinks para Repositórios"
             }
           },
           {
-            "id": "f92cf9ae0f3f4c67",
+            "id": "d2fc1844cc25ec27",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring In Action/Capítulo 1 - Fundamentos Spring.md",
+                "file": "Full Cycle 3.0/DDD Modelagem Tática e Patterns/Repositórios.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Links externos de Capítulo 1 - Fundamentos Spring"
+              "title": "Links externos de Repositórios"
             }
           },
           {
-            "id": "5de57b5249dce311",
+            "id": "0c9bb7cd196f5fd0",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -182,18 +137,18 @@
             }
           },
           {
-            "id": "61cf465a6d90c91f",
+            "id": "1aaba07fee55a6c4",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring In Action/Capítulo 1 - Fundamentos Spring.md",
+                "file": "Full Cycle 3.0/DDD Modelagem Tática e Patterns/Repositórios.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Índice de Capítulo 1 - Fundamentos Spring"
+              "title": "Índice de Repositórios"
             }
           }
         ]
@@ -213,67 +168,15 @@
       "command-palette:Abrir paleta de comando": false
     }
   },
-<<<<<<< HEAD
-  "active": "465536513df93535",
+  "active": "24c0bf80014e8cd5",
   "lastOpenFiles": [
-    "Full Cycle 3.0/DDD Modelagem Tática e Patterns/Entidades.md",
+    "Full Cycle 3.0/DDD Modelagem Tática e Patterns/Repositórios.md",
+    "Full Cycle 3.0/DDD Modelagem Tática e Patterns/Domain Services.md",
     "Full Cycle 3.0/DDD Modelagem Tática e Patterns/Value objects.md",
-    "Full Cycle 3.0/DDD Modelagem Tática e Patterns/Introdução.md",
-    "Full Cycle 3.0/Domain Drive Design/Domínios, subdomínios e contextos.md",
-    "Full Cycle 3.0/DDD Modelagem Tática e Patterns",
-=======
-  "active": "b8cf3e800fac54b9",
-  "lastOpenFiles": [
-    "Rocketseat/assets/Captura de tela de 2025-04-02 19-55-43.png",
-    "Organização.md",
-    "Rocketseat/java/Padrões de Projeto.md",
-    "Rocketseat/assets",
-    "projetos/gestao_vagas.md",
-    "Rocketseat/java",
-    "Rocketseat",
-    "Full Cycle 3.0/Domain Drive Design/Domínios, subdomínios e contextos.md",
->>>>>>> java
-    "Full Cycle 3.0/Domain Drive Design/Introdução.md",
-    "Full Cycle 3.0/SOLID Express/Solid.md",
-    "Full Cycle 3.0/Comunicação entre sistemas/Service Discovery e Consul.md",
-    "Full Cycle 3.0/Domain Drive Design",
-    "Full Cycle 3.0/SOLID Express",
-    "Spring In Action/assets/Captura de tela de 2025-03-27 19-42-52.png",
-    "Spring In Action/Capítulo 6 - Trabalhando com propriedades de configuração.md",
-    "Full Cycle 3.0/assets/Captura de tela de 2025-03-27 18-09-55.png",
-    "Full Cycle 3.0/assets/Captura de tela de 2025-03-27 18-09-16.png",
-    "Full Cycle 3.0/assets/Captura de tela de 2025-03-27 18-06-52.png",
-    "Full Cycle 3.0/assets/Captura de tela de 2025-03-27 17-57-21.png",
-    "Full Cycle 3.0/Comunicação entre sistemas/gRPC.md",
-    "Full Cycle 3.0/Comunicação entre sistemas/GraphQL.md",
-    "projetos",
-    "Full Cycle 3.0/assets/Captura de tela de 2025-03-25 09-22-29.png",
-    "Full Cycle 3.0/assets/Captura de tela de 2025-03-25 09-21-29.png",
-    "Full Cycle 3.0/assets/Captura de tela de 2025-03-25 09-20-37.png",
-    "Full Cycle 3.0/assets/Captura de tela de 2025-03-25 09-19-26.png",
-    "Full Cycle 3.0/Comunicação entre sistemas/REST.md",
-    "Spring In Action/Capítulo 5 - Protegendo o Spring.md",
-    "Full Cycle 3.0/Comunicação entre sistemas",
-    "Full Cycle 3.0/Fundamentos da arquitetura de software/Resiliência.md",
-    "Full Cycle 3.0/Fundamentos da arquitetura de software/Escalabilidade.md",
-    "Full Cycle 3.0/Fundamentos da arquitetura de software/Performance.md",
-    "Full Cycle 3.0/Fundamentos da arquitetura de software/Fundamentos.md",
-    "Full Cycle 3.0/Fundamentos da arquitetura de software/Características Arquiteturais.md",
-    "Spring In Action/Capítulo 4 - Trabalhando com dados não relacionais.md",
-    "Spring In Action/Capítulo 3 - Trabalhando com dados.md",
-    "desafios/Desafio backend do BankPay.md",
-    "Sem título.canvas",
-    "desafios",
-    "yt/Angular/Saindo do Zero em 1 Hora.md",
-    "yt/assets",
-    "yt/Angular",
-    "Full Cycle 3.0/Docker/Docker-compose.md",
-    "Full Cycle 3.0/Docker/Otimizando imagens.md",
-<<<<<<< HEAD
-    "Full Cycle 3.0/Docker/Colocando em prática.md"
-=======
-    "Full Cycle 3.0/Docker/Colocando em prática.md",
-    "Full Cycle 3.0/Docker/Trabalhando com imagens.md"
->>>>>>> java
+    "Full Cycle 3.0/DDD Modelagem Tática e Patterns/Agregados.md",
+    "Full Cycle 3.0/DDD Modelagem Tática e Patterns/Avançando com testes.md",
+    "Full Cycle 3.0/assets/Captura de tela de 2025-04-03 10-11-31.png",
+    "Full Cycle 3.0/assets/Captura de tela de 2025-04-03 10-10-22.png",
+    "Full Cycle 3.0/assets/Captura de tela de 2025-04-03 10-09-26.png"
   ]
 }

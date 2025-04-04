@@ -1,5 +1,6 @@
 {
   "main": {
+<<<<<<< HEAD
     "id": "b8af26ee1833c1c5",
     "type": "split",
     "children": [
@@ -9,16 +10,35 @@
         "children": [
           {
             "id": "ee33c5f97293abce",
+=======
+    "id": "c6e15a07c5544d66",
+    "type": "split",
+    "children": [
+      {
+        "id": "04e6193e4280008b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "24c0bf80014e8cd5",
+>>>>>>> main
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "Rocketseat/java/Padrões de Projeto.md",
+=======
+                "file": "Full Cycle 3.0/DDD Modelagem Tática e Patterns/Repositórios.md",
+>>>>>>> main
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
+<<<<<<< HEAD
               "title": "Padrões de Projeto"
+=======
+              "title": "Repositórios"
+>>>>>>> main
             }
           }
         ]
@@ -27,6 +47,7 @@
     "direction": "vertical"
   },
   "left": {
+<<<<<<< HEAD
     "id": "c7d6fbf318c07a83",
     "type": "split",
     "children": [
@@ -36,6 +57,17 @@
         "children": [
           {
             "id": "228d8f212a8549f7",
+=======
+    "id": "673c58eee7b9d5ce",
+    "type": "split",
+    "children": [
+      {
+        "id": "5202391141344083",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eed2ed7ff4ddb948",
+>>>>>>> main
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +80,11 @@
             }
           },
           {
+<<<<<<< HEAD
             "id": "9ac1a43b4d0f814c",
+=======
+            "id": "47b6a11abb3a5c75",
+>>>>>>> main
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +101,11 @@
             }
           },
           {
+<<<<<<< HEAD
             "id": "12c636949a188511",
+=======
+            "id": "f6dba286deee3d03",
+>>>>>>> main
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -81,6 +121,7 @@
     "width": 300
   },
   "right": {
+<<<<<<< HEAD
     "id": "df2b4f61c1892b3f",
     "type": "split",
     "children": [
@@ -90,11 +131,26 @@
         "children": [
           {
             "id": "616aaec6cf9cc343",
+=======
+    "id": "8f28d98eb5ff0ba1",
+    "type": "split",
+    "children": [
+      {
+        "id": "53fd04313b1a9026",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "14dcc2aa0b3d962c",
+>>>>>>> main
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "Rocketseat/java/Padrões de Projeto.md",
+=======
+                "file": "Full Cycle 3.0/DDD Modelagem Tática e Patterns/Repositórios.md",
+>>>>>>> main
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +160,45 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
+<<<<<<< HEAD
               "title": "Backlinks para Padrões de Projeto"
             }
           },
           {
             "id": "046c208434960014",
+=======
+              "title": "Backlinks para Repositórios"
+            }
+          },
+          {
+            "id": "d2fc1844cc25ec27",
+>>>>>>> main
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
                 "file": "Rocketseat/java/Padrões de Projeto.md",
+=======
+                "file": "Full Cycle 3.0/DDD Modelagem Tática e Patterns/Repositórios.md",
+>>>>>>> main
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
+<<<<<<< HEAD
               "title": "Links externos de Padrões de Projeto"
             }
           },
           {
             "id": "7491067a698291a3",
+=======
+              "title": "Links externos de Repositórios"
+            }
+          },
+          {
+            "id": "0c9bb7cd196f5fd0",
+>>>>>>> main
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,18 +213,30 @@
             }
           },
           {
+<<<<<<< HEAD
             "id": "0714072398c6eebf",
+=======
+            "id": "1aaba07fee55a6c4",
+>>>>>>> main
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< HEAD
                 "file": "Rocketseat/java/Padrões de Projeto.md",
+=======
+                "file": "Full Cycle 3.0/DDD Modelagem Tática e Patterns/Repositórios.md",
+>>>>>>> main
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
+<<<<<<< HEAD
               "title": "Índice de Padrões de Projeto"
+=======
+              "title": "Índice de Repositórios"
+>>>>>>> main
             }
           }
         ]
@@ -168,6 +256,20 @@
       "command-palette:Abrir paleta de comando": false
     }
   },
+<<<<<<< HEAD
   "active": "ee33c5f97293abce",
   "lastOpenFiles": []
+=======
+  "active": "24c0bf80014e8cd5",
+  "lastOpenFiles": [
+    "Full Cycle 3.0/DDD Modelagem Tática e Patterns/Repositórios.md",
+    "Full Cycle 3.0/DDD Modelagem Tática e Patterns/Domain Services.md",
+    "Full Cycle 3.0/DDD Modelagem Tática e Patterns/Value objects.md",
+    "Full Cycle 3.0/DDD Modelagem Tática e Patterns/Agregados.md",
+    "Full Cycle 3.0/DDD Modelagem Tática e Patterns/Avançando com testes.md",
+    "Full Cycle 3.0/assets/Captura de tela de 2025-04-03 10-11-31.png",
+    "Full Cycle 3.0/assets/Captura de tela de 2025-04-03 10-10-22.png",
+    "Full Cycle 3.0/assets/Captura de tela de 2025-04-03 10-09-26.png"
+  ]
+>>>>>>> main
 }

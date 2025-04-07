@@ -114,4 +114,261 @@ Precisamos começar a perceber os riscos de manutenibilidade e evolução do nos
 
 
 2. Implementação com SRP:
-Nesta abordagem grande parte do código que existe somente em uma 
+Nesta abordagem grande parte do código que existe somente em uma classe, poderá ser distribuído em outras classes em seu projeto.
+
+```java
+public class Conta {
+	private double saldo;
+	
+public void atualizarSaldo(Operacao operacao, Double valor) {
+	if(Operacao.DEPOSITO == operacao)
+		saldo = saldo + valor
+	else
+		saldo = saldo - valor
+	}
+	public double obterSaldo() {
+		return saldo;
+	}
+}
+```
+
+```java
+public class CaixaEletronico {
+
+	void depositar(Conta conta, Double valorInserido) {
+		//receber as notas em um envelope
+		//algoritmo de verificação de cédulas
+		conta.atualizarSaldo(Operacao.DEPOSITO, valorInserido);
+	}
+
+	void sacar(Conta conta, Double valorSolicitado) {
+		//consultar saldo disponivel
+		//algoritmo de contagem das cédulas
+		conta.atualizarSaldo();
+	}
+
+	double obterSaldo(Conta conta) {
+		return conta.obterSaldo();
+	}
+
+	String imprimirExtrato(Conta conta) {
+	//lógica que busca e apresenta todas as movimentações da conta
+	//a conta não precisa saber quais foram suas movimentações
+		return '';
+	}
+}
+```
+
+
+```java
+public enum Operacao {
+	DEPOSITO,
+	SAQUE;
+}
+```
+
+
+Diante de toda esta abordagem sobre SRP, agora somos capazes de compreender a importância de aplicar o princípio da responsabilidade única diante das classes de nosso projeto. Não esqueça: Uma classe deve ter um e somente um motivo para mudar.
+
+
+### Open-Closed
+Na programação orientada a objeto, o princípio Open/Closed ou aberto/fechado estabelece que "entidades de software (classes, módulos, funções, etc.) devem ser abertas para extensão, mas fechadas para modificação"; isto é, a entidade pode permitir que o seu comportamento seja estendido sem modificar seu código-fonte.
+Muitas das vezes este princípio exige a criação de interfaces ou classes abstratas para proporcionar o mecanismo de extensão comumente utilizada em linguagens orientadas a objetos. Vejamos o nosso contexto de contas ilustrando no princípio da Responsabilidade Única.
+Vamos imaginar que a empresa de ecommerce quer agora permitir que seus clientes realize o saque de sua conta considerando os cenários abaixo:
+- Quando o saque for realizado em um caixa eletrônico em seus pontos de apoio, o mesmo receberá o dineiro em espécie;
+- Novo recurso: Quando o saque for realizado pelo site, uma transação via pix deverá ser realizada de acordo com os dados cadastrais do correntista.
+
+1. Implementação convencional:
+```java
+public class CaixaEletronico {
+	void sacar(Conta conta, String tipoSaque, Double valorSolicitado) {
+		conta.atualizarSaldo(Operacao.SAQUE, valorSolicitado);
+		//novos comportamentos
+		if(tipoSaque == 'ESPECIE')
+		 //o dinheiro será liberado pelo caixa eletrônico
+		else
+		 //uma transação via pix será gerada creditando a conta pix do correntista
+	}
+}
+```
+
+2. Implementação Open/Closed:
+```java
+public interface Terminal {
+	void sacar(Conta conta, Double valorSolicitado);
+
+	//os métodos de uma interface ou de uma classe abstrata não possuem corpo.
+}
+```
+
+```java
+public class CaixaEletronico implements Terminal {
+	void sacar(Conta conta, Double valorSolicitado) {
+		conta.atualizarSaldo(Operacao.SAQUE, valorSolicitado);
+		
+	//o dinheiro será liberado pelo caixa eletrônico
+	}
+}
+```
+
+```java
+public class CaixaVirtual implements Terminal {
+	void sacar(Conta conta, Double valorSolicitado) {
+		conta.atualizarSaldo(Operacao.SAQUE, valorSolicitado);
+
+	//uma transação via pix será gerada creditando a conta pix
+	}
+}
+```
+
+Alterar classes já existentes para atender aos novos requisitos pode ampliar os riscos de introduzirmos bugs em nosso sistema. Então, lembre-se, aplicar a abstração via interfaces ou classes abstratas poderá deixar seu algoritmo mais flexível às nossas solicitações no projeto.
+
+### Liskov
+Na programação orientada a objetos, o princípio da substituição de Liskov ou Liskov Substitution é uma definição partiular para o conceito de subtipo, que diz que: Sua classe derivada deve ser substituída por sua classe base.
+Considerando que nosso sistema precisará a partir de agora exibir o nome de seus clientes considerando que estes clientes poderão ser pessoas físicas ou empresas em seu módulo de cadastros, logo, vejamos o contexto abaixo:
+
+```java
+//o uso do conceito abstract é circunstâncial
+	public abstract class Cliente {
+		String getNome();
+		}
+	}
+	```
+
+```java
+	public class ClientePessoaFisica extends Cliente{
+		String nome;
+		String getNome(){
+			return nome;
+			}
+	}
+	```
+
+```java
+public class ClientePessoaFisica extends Cliente{
+		String nomeFanstasia;
+		String getNome(){
+			return nomeFantasia;
+			}
+	}
+	```
+
+```java
+public class EmissorNotaFiscal {
+	public void imprimirNotaFiscal(Cliente cliente) {
+
+	print(cliente.getNome());
+	}
+}
+```
+
+```java
+public class Sistema {
+
+	public static void main() {
+
+	Cliente pessoaFisica = new ClientePessoaFisica();
+	Cliente empresa = new ClienteEmpresa();
+
+	EmissorNotaFiscal emissor = new EmissorNotaFiscal();
+
+	emissor.imprimirNotaFiscal(pessoaFisica);
+	emissor.imprimirNotaFiscal(empresa);
+	}
+}
+```
+
+### Interface Segregation
+No campo da engenharia de software, o princípio da segregação de Interface (Interface Segregation) afirma que nenhum cliente deve ser forçados a depender de métodos que não utiliza. ISP divide interfaces que são muito grandes em menores e mais específicas, para que os clientes só necessitem saber sobre os métodos que são de interesse para eles.
+
+A nossa empresa de ecommerce solicitou para o nosso time de desenvolvedores que agora será possível transferir o saldo em conta para outras contas cadastradas em sua plataforma, porém, somente via online ou caixa virtual.
+
+```java
+	public interface Terminal {
+		void sacar(Conta conta, Double valorSolicitado);
+		void transferir(Conta contaOrigem);
+
+		//Se este recurso for adicionado nesta interface, todas as classes devem implementar
+	}
+```
+
+```java
+	public interface TerminalTransferencia extends Terminal {
+		// nova interface contendo os novos métodos adequadamente
+		void transferir(Conta contaOrigem, Conta contaDestino, Double valorInformado);
+	}
+```
+
+```java
+	public class CaixaEletronico implements Terminal {
+		void sacar(Conta conta, Double valorSolicitado){}
+	}
+```
+
+```java
+	public class CaixaVirtual implements Terminal, TerminalTransferencia {
+	void sacar(Conta conta, Double valorSolicitado){}
+
+	void transferir(Conta contaOrigem, Conta contaDestino, Double valorInformado) {
+
+	//logica de transferencia realizada no CaixaVirtual
+	}
+	}
+```
+
+### Dependency Inversion
+No paradigma de orientação a objetos, o Princípio da inversão de dependência ou Dependency Inversion refere-se a uma forma específica de desacoplamento de módulos de software que determina a inversão das relações de dependência.
+O DIP reforça que é mais conveniente depender de abstrações e não de implementações com base em suas duas definições:
+
+1. Módulos de alto nível não devem depender de módulos de baixo nível. Ambos devem depender de abstrações;
+2. As abstrações não devem depender de detalhes. Os detalhes devem depender das abstrações
+
+Inversão de dependências não é o mesmo que injeção de dependências, mesmo que ambos possuem a finalidade de desacoplar o código ou implementação real.
+Vamos imaginar que a empresa de ecommerce iniciou uma ação de marketing para divulgar um novo produto e contratou três agências de marketing para cuidar da criação do material que será apresentado em forma de três comerciais ao longo de uma semana.
+
+```java
+public interface Agencia {
+	void divulgarProduto(Produto produto);
+}
+```
+
+```java
+public class Agencia01 implements Agencia {
+	void divulgarProduto(Produto produto) {
+		print("conteúdo de apresentação da Agencia 01");
+	}
+}
+```
+
+```java
+public class Agencia02 implements Agencia {
+	void divulgarProduto(Produto produto) {
+		print("conteúdo de apresentação da Agencia 02");
+	}
+}
+```
+
+```java
+public class LancamentoProduto {
+
+	Agencia agencia;
+
+	LancamentoProduto(Agencia agenciaProgramada) {
+
+	//agenciaProgramada corresponderá a ordem de apresentação das agências contratadas para divulgar o produto.
+
+	agencia = agenciaProgramada;
+
+	}
+
+	void iniciar() {
+		Produto produto = produto selecionado;
+
+	//abstração sem a necessidade de conhecer a estratégia da agência
+	agencia.divulgarProduto(produto);
+	}
+}
+```
+
+
+### Domain-Driven Design

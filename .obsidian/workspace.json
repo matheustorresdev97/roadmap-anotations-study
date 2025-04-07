@@ -11,10 +11,14 @@
             "id": "65e6d660eb2f1025",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Rocketseat/java/Padrões de Projeto.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nova aba"
+              "title": "Padrões de Projeto"
             }
           }
         ]

@@ -372,3 +372,89 @@ public class LancamentoProduto {
 
 
 ### Domain-Driven Design
+
+É uma abordagem de modelagem de software. Seu propósito é focar no desenvolvimento na criação de um modelo de domínio. Esse modelo é baseado nas competências da organização, considerando a complexidade do negócio.
+Não entenda design apenas como layout ou visual da sua aplicação.
+O intuito principal do DDD é oferecer recursos e diretrizes diante de uma visão tática e estratégica e assim poder assegurar a entrega de um software com alta qualidade, mesmo em cenários com uma complexidade considerável no negócio. Também não podemos deixar de mencionar que é possível aplicar DDD independente da linguagem e tecnologia em seus projetos.
+- design estratégico: nos ajuda a resolver problemas relacionados à modelagem de software;
+- design tático: ocorre após a fase estratégica, se concentra no desenvolvimento do produto, focado nos detalhes de implementação.
+Um dos principais motivos do fracasso em tentar implementar DDD em alguns projetos, é que as empresas e os stakeholders não consideram em seu planejamento de esforço, tempo e custo os requisitos necessários para adotar suas diretrizes. Resumindo, não existe uma estimativa relevante para uma abordagem estratégica previamente estruturada.
+
+Para aplicar e seguir o DDD é necessário conhecer e compreender seus princípios que por sua vez eles concentram todos os seus esforços para expandir o conhecimento e a compreensão do negócio, visando atender às necessidades e expectativas dos usuários:
+
+1. Discussão
+2. Escuta
+3. Compreensão
+
+
+#### Por que utilizar DDD?
+
+DDD é uma jornada, não o destino. A busca pela harmonia do domínio nunca termina. O domínio muda à medida que o negócio muda. Mantém o software alinhado com o negócio. Faz isso estratégica, tática e filosoficamente.
+Praticar DDD, significa aproximar os especialistas do domínio (Domain experts) do time de desenvolvimento. Criando uma linguagem única. Uma comunicação sem ruídos, limpa.
+
+### Domínio
+O termo domínio refere-se ao propósito, negócio da sua empresa ou assunto do seu projeto que podemos reduzir ainda mais para o core-domain ou domínio central que é parte principal de um domínio.
+A implementação de DDD em um projeto requer um time de desenvolvedores e especialistas do negócio, os domain experts. Por exemplo, ao desenvolver um software de gestão logística, os profissionais do centro de distribuição seriam esses experts
+
+### Linguagem Ubíqua
+Para que todos consigam aprender e compreender as especificações e diretrizes do projeto, é necessário que haja uma comunicação única e simples, esta abordagem é conhecida como linguagem ubíqua.
+A linguagem ubíqua, é uma linguagem da equipe, compartilhada e principalmente entendida por todos e que também pode evoluir ao longo do projeto.
+
+### Bounded Context
+O outro pilar do DDD é a delimitação do contexto ou Bounded Context, que representa o limite conceitual do projeto. Em um projeto você pode se deparar com um dompinio relativamente extenso e complexo, o Bounded Context tem a intenção de delimitar ou criar sub-domínios baseando-se nas intenções de negócio.
+Cada bounded context poderá ter a sua linguagem ubíqua, sua abordagem de arquitetura, de armazenamento de dados e até a própria equipe de desenvolvimento.
+
+Seguindo o nosso contexto ilustrativo que apresentamos no tópico Design Pattern com base na proposta de um software para gestão de uma empresa de ecommerce, iremos ilustrar como é realizada a delimitação dos contextos de negócio que divide a complexidade de sua aplicação em sub-domínios mais simples para a interpretação de todos os envolvidos proporcionando assim uma linguagem ubíqua e melhor entendimento.
+Em nosso exemplo de Design Pattern para um software de gestão de ecommerce, ilustramos a delimitação dos contextos de negócio. Essa delimitação divide a complexidade da aplicação em sub-domínios mais simples. Isso facilita a interpretação de todos os envolvidos, proporcionando uma linguagem ubíqua e melhor entendimento.
+
+![[Captura de tela de 2025-04-07 19-21-55.png]]
+
+Vale ressaltar que uma entidade de domínio poderá assumir identidades e papéis diferentes de acordo com o sub-domínio que a mesma esteja envolvida, exemplo: Cliente, Destinatário e Remetente, estas três entidades representam a pessoa que está adquirindo um produto através de uma compra pelo site onde também as mesmas poderão ter características distintas e similares.
+
+### Context Map
+O mapeamento de cenários é uma ferramenta que permite identificar a conexão entre ambientes definidos e a relação entre as equipes encarregadas por eles.
+Os principais tipos de relacionamentos entre um contexto são:
+
+- Shared Kernel: Quando vários bounded context compartilham de um mesmo domínio;
+- Customer Supplier: Quando existe uma relação estilo cliente downstream e fornecedor upstream, onde a equipe upstream pode ter êxito independente da equipe downstream;
+- Partnership: Quando equipes em dois contextos conseguem ou fracassam juntas, um relacionamento cooperativo precisa emergir.
+- Anticorruption Layer: Essa abordagem geralmente é útil para integrar novos recursos a alguns softwares legados existentes.
+
+
+### Evento de domínio
+Um evento é um acontecimento passado. Uma ocorrência de domínio é algo que ocorreu em uma área específica que você deseja que outras partes do mesmo domínio (em processo) estejam cientes. As partes notificadas geralmente reagem aos eventos.
+Um benefício importante dos eventos de domínio é que os efeitos colaterais podem ser expressos explicitamente.
+
+
+![[Captura de tela de 2025-04-07 19-31-54.png]]
+
+
+Quando o usuário inicia um pedido, a junção Order emite um acontecimento de domínio OrderStarted. O domínio de evento OrderStarted é manipulado pela agregação Comprador dispara a criação de um objeto Comprador para criar um objeto Buyer no microsserviço de pedidos, com base nas informações do usuário original, obtidas do microsserviço de identidade
+
+
+### Implementação 
+Considerando a afirmação de Vaughn Vernon que diz que "O design estratégico é como um rascunho antes de entrar nos detalhes da implementação." Chegou a hora de conhecer um pouco sobre a abordagem tática do domínio.
+
+#### Domain Model Pattern
+O Domain Model Pattern, ou padrão de modelo de domínio, é uma estratégia que orienta como compor as classes que irão representar as versões do mundo real e implementar os comportamentos do negócio.
+A seguir, são mostrados alguns padrões de modelo usados frequentemente na modelagem tática em projetos de diversos segmentos de negócio.
+
+- Entities: Classes que representam modelos de objetos que necessitam de um identificador;
+
+- Value Objects: São objetos imutáveis e sem identidade que se agregam a outros objetos (Entities);
+
+- Aggregate Object: Uma entidade que é a raiz agregadora de um processo do domínio que envolve mais de uma entidade;
+
+- Factory: Classe responsável por construir adequadamente um objeto/entidade;
+
+- Domain Service: Serviço do domínio lida com aspectos do negócio que não são naturalmente representados por entidades específicas. Ele coordena operações que envolvem múltiplas entidades, utiliza repositórios para persistência de dados e desempenha funções cruciais no domínio do problema;
+
+- Repository: Uma classe que realiza a persistência das entidades se comunicando diretamente com o meio de acesso aos dados, é utilizado apenas um repositório por agregação;
+
+- Application Service: Serviço de aplicação que coordena ações acionadas pela estrutura de apresentação e fornece DTOs para comunicação entre os demais níveis e para o uso da estrutura de apresentação;
+
+- External Service: Serviço externo que realiza a consulta/persistência de informações por meios diversos.
+
+
+![[Captura de tela de 2025-04-07 19-46-21.png]]
+

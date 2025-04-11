@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b350c4e0c78d554b",
+        "id": "4f57c4850afe0f40",
         "type": "tabs",
         "children": [
           {
-            "id": "75760de439e78249",
+            "id": "a8c10b5087894ceb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "DEVSuperior/Java Spring Profissional/JPA, consulta SQL E JPQL.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nova aba"
+              "title": "JPA, consulta SQL E JPQL"
             }
           }
         ]
@@ -164,24 +168,28 @@
       "command-palette:Abrir paleta de comando": false
     }
   },
-  "active": "75760de439e78249",
+  "active": "a8c10b5087894ceb",
   "lastOpenFiles": [
-    "Nélio/Java Spring Profissional/Componentes de Injeção de Dependência.md",
-    "Nélio/assets/Captura de tela de 2025-04-09 08-11-16.png",
-    "Nélio/assets",
-    "Nélio/assets/Captura de tela de 2025-04-09 08-06-52.png",
+    "DEVSuperior/assets/Captura de tela de 2025-04-11 10-41-18.png",
+    "DEVSuperior/assets/Captura de tela de 2025-04-11 10-31-16.png",
+    "DEVSuperior/assets/Captura de tela de 2025-04-11 10-26-10.png",
+    "DEVSuperior/assets/Captura de tela de 2025-04-11 10-24-50.png",
+    "DEVSuperior/assets/Captura de tela de 2025-04-11 10-24-13.png",
+    "DEVSuperior/Java Spring Profissional/Modelo de domínio e ORM.md",
+    "DEVSuperior/Java Spring Profissional/JPA, consulta SQL E JPQL.md",
+    "DEVSuperior/Java Spring Profissional/API REST, camadas, CRUD, exceções, validações.md",
+    "DEVSuperior/assets/Captura de tela de 2025-04-11 07-50-28.png",
+    "DEVSuperior/assets/Captura de tela de 2025-04-11 07-43-51.png",
+    "DEVSuperior/assets/Pasted image 20250410081250.png",
+    "DEVSuperior/assets/Captura de tela de 2025-04-10 08-08-16.png",
+    "DEVSuperior/assets/Captura de tela de 2025-04-10 07-32-44.png",
+    "Nélio/assets/Captura de tela de 2025-04-10 07-32-11.png",
+    "DEVSuperior/Java Spring Profissional/Componentes de Injeção de Dependência.md",
+    "DEVSuperior/assets",
     "Nélio/Java Spring Profissional/Componentes de Injeção de Dependencia",
-    "Nélio/Java Spring Profissional",
-    "Nélio",
+    "DEVSuperior/Java Spring Profissional",
+    "DEVSuperior",
     "Full Cycle 3.0/Event Storming na Prática/Event Storming.md",
-    "Full Cycle 3.0/assets/Captura de tela de 2025-04-09 07-42-04.png",
-    "Full Cycle 3.0/assets/Captura de tela de 2025-04-09 07-41-06.png",
-    "Full Cycle 3.0/assets/Captura de tela de 2025-04-09 07-39-50.png",
-    "Full Cycle 3.0/assets/Captura de tela de 2025-04-09 07-38-40.png",
-    "Full Cycle 3.0/assets/Captura de tela de 2025-04-09 07-37-37.png",
-    "Full Cycle 3.0/assets/Captura de tela de 2025-04-09 07-36-05.png",
-    "Full Cycle 3.0/assets/Captura de tela de 2025-04-09 07-35-38.png",
-    "Full Cycle 3.0/assets/Captura de tela de 2025-04-09 07-34-19.png",
     "Rocketseat/java/Padrões de Projeto.md",
     "Full Cycle 3.0/DDD Modelagem Tática e Patterns/Factories.md",
     "Full Cycle 3.0/DDD Modelagem Tática e Patterns/Módulos.md",
